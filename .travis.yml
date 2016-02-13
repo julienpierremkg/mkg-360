@@ -5,6 +5,7 @@ cache: bundler
 script:
   - git config --global user.name '${GIT_NAME}'
   - git config --global user.email '${GIT_NAME}'
+  - git remote set-url origin https://julienpierremkg:${GH_TOKEN}@github.com/julienpierremkg/mkg-360.git
   - bundle exec middleman deploy
 env:
   global:
