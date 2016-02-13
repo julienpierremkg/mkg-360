@@ -1,0 +1,25 @@
+prose:
+  rooturl: 'source/posts'
+  media: 'source/images'
+  siteurl: 'http://www.julienpierremkg.com/'
+  relativeLinks: 'https://github.com/julienpierremkg/mkg-360/'
+  # metadata:
+  #   source/blog:
+  #     - name: "title"
+  #       field:
+  #         element: "text"
+  #         label: "Title"
+  #         value: ""
+  #     - name: "author"
+  #       field:
+  #         element: "text"
+  #         label: "Author"
+  #         value: ""
+  #     - name: "tags"
+  #       field:
+  #         element: "multiselect"
+  #         label: "Tags"
+  #         alterable: true
+  #         options:
+  #           - name: 'Tech'
+  #             value: 'tech'
