@@ -6,7 +6,7 @@ prose:
   permalink: :year-:month-:day-:title.html
   ignore:
   metadata:
-    source/blog:
+    source/posts:
       - name: "title"
         field:
           element: "text"
