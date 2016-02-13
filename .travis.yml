@@ -3,6 +3,8 @@ rvm:
   - 2.3.0
 cache: bundler
 script:
+  - git config --global user.name '${GIT_NAME}'
+  - git config --global user.email '${GIT_NAME}'
   - bundle exec middleman deploy
 env:
   global:
